@@ -6,6 +6,7 @@ pipeline {
                  sh '''
                     sleep 5
                     echo "This is a BUILD stage"
+                    exit 1
                 '''
             }
         }
@@ -24,7 +25,6 @@ pipeline {
                 sh '''
                     sleep 5
                     echo "This is a DEPLOY stage"
-                    exit 0
                 '''
             }
         }
