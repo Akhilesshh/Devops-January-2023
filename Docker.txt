@@ -167,6 +167,9 @@ Assignment: Today's demo
 			How to copy files / directories from 
 				1. host machine to container 
 				2. container to host machine 
+				
+				
+				scp -i jan2023.pem /mnt/chromeos/MyFiles/aws/jan2023.pem ubuntu@54.178.20.27:/home/ubuntu
 
 
 
